@@ -1,0 +1,71 @@
+.HomePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.HomePage__Main {
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.HomePage__Main ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.HomePage__Main li {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.HomePage__Main a {
+    text-decoration: none;
+    color: black;
+}
+
+.HomegPage__HomeDisplay {
+    padding: 20px;
+}
+
+.HomePage__HomeDisplay__FlexBox__Item {
+    margin: 10px;
+    background-color: rgb(0, 82, 0);
+    border: black solid 1px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.HomePage__HomeDisplay__FlexBox__Item img {
+    height: 298px;
+    border-radius: 10px;
+}
+
+.Item__Controls h3 {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+@media only screen and (min-width: 481px) {
+/*probably can only fit 2 items side by side w/ 600px width or more*/
+.HomePage__Main {
+    max-width: 600px;
+}
+
+}
+
+@media only screen and (min-width: 835px) {
+
+.HomegPage__Main {
+    max-width: 1000px;
+}
+
+}

@@ -1,0 +1,58 @@
+.CreatePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CreatePage__Main {
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.CreatePage__Main h3 {
+    font-size: 24px;
+}
+
+.RecipeTitle {
+    padding: 20px;
+    text-align: left;
+}
+
+.RecipeTitle input {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.RecipeTitle label {
+    font-size: 18px;
+}
+
+.Recipe__Box {
+    padding: 20px;
+    border: black solid 1px;
+    border-radius: 10px;
+}
+
+.Recipe__Box h3 {
+    font-size: 18px;
+}
+
+.Buttons__Box {
+    padding: 20px;
+}
+
+.Ingredients__Box {
+    padding: 20px;
+}
+
+.Ingredients__List {
+    border: black solid 1px;
+    border-radius: 10px;
+}
+
+.Ingredients__Item label {
+    padding: 5px;
+}

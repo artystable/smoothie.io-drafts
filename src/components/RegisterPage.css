@@ -1,0 +1,28 @@
+.RegisterPage__Main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 200px;
+    padding-left: 10px;
+}
+
+.RegisterPage__Main h1 {
+    font-size: 36px;
+    padding: 20px;
+}
+
+.RegisterPage__Main label {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.RegisterPage__Main input {
+    font-size: 18px;
+}
+
+.RegisterPage__Main button {
+    font-size: 18px;
+    font-weight: 200;
+}

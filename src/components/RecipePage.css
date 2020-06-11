@@ -1,0 +1,108 @@
+.RecipePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.RecipePage h1 {
+    font-size: 36px;
+}
+
+.RecipePage h3 {
+    font-size: 24px;
+}
+
+.RecipePage__Main {
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.RecipePage__Main ul {
+    list-style-type: none;
+}
+
+.RecipePage__Main li {
+    font-weight: 200;
+}
+
+.RecipePage__BottomButtons {
+    padding: 20px;
+}
+
+.RecipePage__RecipeDisplay {
+    padding: 20px;
+}
+
+.RecipePage__RecipeDisplay__FlexBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.RecipePage__RecipeDisplay__FlexBox img {
+    height: 300px;
+    border-radius: 10px;
+}
+
+.RecipePage__ReviewsBox {
+    padding: 20px;
+}
+
+.RecipePage__ReviewsBox img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+.IndividualReviewBox {
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.IndividualReviewBox__User {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.IndividualReviewBox__User span {
+    padding: 10px;
+}
+
+@media only screen and (min-width: 481px) {
+
+.RecipePage__Main {
+    max-width: 600px;
+}
+
+}
+
+@media only screen and (min-width: 835px) {
+
+.RecipePage__Main {
+    max-width: 1000px;
+}
+
+.RecipePage__RecipeDisplay__FlexBox {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.IndividualReviewBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.IndividualReviewBox__User {
+    padding-right: 20px;
+}
+
+.IndividualReviewBox__Review {
+    padding-left: 20px;
+}
+
+}

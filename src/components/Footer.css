@@ -1,0 +1,12 @@
+.Footer {
+    height: 50px;
+    text-align: center;
+    background-color: rgb(0, 82, 0);
+    color: white;
+}
+
+.Footer span {
+    color: white;
+    font-size: 10px;
+    line-height: 50px;
+}
